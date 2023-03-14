@@ -9,18 +9,18 @@ import { OmdbApiService } from './services/omdb-api.service';
 })
 export class AppComponent {
   title = 'Movie-Finder';
-  movieData!:IOMBDResponse;
-  errorMessage:any;
+  // movieData!:IOMBDResponse;
+  // errorMessage:any;
 
-  constructor(private _omdbService:OmdbApiService){}
+  // constructor(private _omdbService:OmdbApiService){}
 
-    getMovieDetails(movieName:string):Boolean{
-      this._omdbService.getMoviedata(movieName).subscribe(
-        movieData => {
-          this.movieData = movieData;
-          console.log("Director name: " + this.movieData.Director);
-        }
-      )
-      return false;
-    }
+  //   getMovieDetails(movieName:string):Boolean{
+  //     this._omdbService.getMoviedata(movieName).subscribe(
+  //       movieData => {
+  //         this.movieData = movieData;
+  //         console.log("Director name: " + this.movieData.Director);
+  //       }
+  //     )
+  //     return false;
+  //   }
 }

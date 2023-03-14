@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { OmdbApiService } from './services/omdb-api.service';
+import { SearchtitleComponent } from './components/searchtitle/searchtitle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchtitleComponent
   ],
   imports: [
     BrowserModule
