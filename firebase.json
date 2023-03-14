@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/movie-finder",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
